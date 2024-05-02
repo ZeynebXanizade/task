@@ -1,5 +1,3 @@
-
-
 import 'task_one.dart';
 
 void main() {
@@ -15,9 +13,7 @@ void main() {
   int hour = 2;
   int minute = 15;
 
-  double minutedegrees = minute * (360 / 60);
-  double hourDegrees = (hour % 12) * (360 / 12) + (minutedegrees / 12);
-  double angleClock = (hourDegrees - (3 * (360 / 12))) % 360;
-  print("Bucaq $angleClock");
-
+  double angleClock = (hour * 30) + (minute * 0.5);
+  double angle = angleClock % 360;
+  print("Bucaq $angle");
 }
