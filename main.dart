@@ -1,4 +1,6 @@
-import '.vscode/task_one.dart';
+
+
+import 'task_one.dart';
 
 void main() {
 // Dart proqlasdirma dilində verilən ədədin  Əbob və Əkobun tapılması.
